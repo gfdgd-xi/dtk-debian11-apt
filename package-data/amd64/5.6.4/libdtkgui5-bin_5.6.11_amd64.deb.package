@@ -1,0 +1,20 @@
+Package: libdtkgui5-bin
+Architecture: amd64
+Version: 5.6.11
+Priority: optional
+Section: libdevel
+Source: dtkgui
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 193
+Depends: libc6 (>= 2.14), libdtkcore5 (>= 5.6), libdtkgui5 (= 5.6.11), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 6), libx11-6
+Filename: ./amd64/5.6.4/libdtkgui5-bin_5.6.11_amd64.deb
+Size: 46284
+MD5sum: 7be65b3602be0dae11fe6d951b0886fe
+SHA1: b3fa23a6f367a93fa6a45793e5ed857b561e13c7
+SHA256: 46024a29ea0bd97e87e1ab9287c837e354c63883838108026f43e4d754704c92
+SHA512: 4f1962f07aac0fddc29abf9142b821cf831585a4d03a8c24d0b21b8ac2f9d074aa0b7073a3ff79b6b0a079cefd4116641983cec3fda42a2c2a039d18fb81d06f
+Description: Deepin Tool Kit Gui Utilities
+ DtkGui is base devel library of Deepin Qt/C++ applications.
+ .
+ This package contains the utilities of DtkGui
+

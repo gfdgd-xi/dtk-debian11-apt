@@ -1,0 +1,19 @@
+Package: dde-qt5integration-dbgsym
+Architecture: amd64
+Version: 5.6.11
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: qt5integration
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 7386
+Depends: dde-qt5integration (= 5.6.11)
+Filename: ./amd64/5.6.4/dde-qt5integration-dbgsym_5.6.11_amd64.deb
+Size: 7228768
+MD5sum: 69cc88c7a214168d0e551ff042d8bad8
+SHA1: 75f1fe0cffb526abe6f51d9b5ed6d69cc98c6269
+SHA256: 3841da20eeb1a75346cabb355edbcdddedb7d8295feb99d9f4567b46f0f726f2
+SHA512: ee402e5555ab43417f22ff1354de77b99f9755ecdf347d7dc7a0fd5c57e82555ab0b3301340472f8348df228745e5126ac3b9e033d733462ab01692d9c01c0da
+Description: debug symbols for dde-qt5integration
+Build-Ids: 0eafd3b3789f60cf157226758aaec4c98f55303c 1707ac5ae2d3a7dfb17a7f04e8d632b0879d1fad 222198f8f6498c6baca1e1b0cd574e45a30a220f 3dce08b24eb204cf1d84b2e9e134b47d9092e731 9bd5c3b10bd534eb792e92d1e4ada9d78c6970fd 9e9eabc30974457ff9cf930e8ec18e9c7686652d be175235d818bf11294766aeaea08f19b1c1459e c550e502b8f75b2a40ba1cd88c66cd8688806a8c e4d4ce38118dad4ffa1d20de20c91032fe744b34
+
