@@ -1,0 +1,21 @@
+Package: libdtkcommon-dev
+Architecture: arm64
+Version: 5.6.9
+Priority: optional
+Section: libdevel
+Source: dtkcommon
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 51
+Depends: libdtkcommon (= 5.6.9)
+Conflicts: libdtkcore-dev (<< 5.4.10)
+Replaces: libdtkcore-dev (<< 5.4.10)
+Filename: ./arm64/5.6.2/libdtkcommon-dev_5.6.9_arm64.deb
+Size: 9292
+MD5sum: 7905b9cabea1ad0dcc165e3bdbe5e1cc
+SHA1: 0762868f458d611fb1495ea7c44eeef2ca3abf77
+SHA256: dc9311f1aede3128fa8962ef591699924ddc6aefd62f2f49e004b3e14c406eb8
+SHA512: 0b4901d1b21570805d27c7e8f8cad0a136ef848e605bca4797e304d626448556d120a9150d19293e27fb73146243cd87a433cb2ae60608e1e3b6be248f8375d6
+Homepage: http://www.deepin.org/
+Description: dtk common files
+ Used to store public build files
+

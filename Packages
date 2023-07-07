@@ -862,3 +862,601 @@ Description: Deepin graphical user interface library
  .
  This package contains the shared libraries.
 
+Package: libdtkcore5
+Architecture: arm64
+Version: 5.6.2.2-1
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: dtkcore
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 1398
+Depends: libc6 (>= 2.17), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 5.2), qtbase-abi-5-15-2, lshw, libdtkcommon
+Filename: ./arm64/5.6.2/libdtkcore5_5.6.2.2-1_arm64.deb
+Size: 371276
+MD5sum: 6cf478f4d7aef8aaaebe5e25957fd0df
+SHA1: ff68659523f616dd6b5152f4eb9e9a8a530d771f
+SHA256: 6ed1d95699358a36f6475237316c5417d2b5291632263c8fb2096bc9e87a75b4
+SHA512: 9d62c23b8d88f934ee6416871db9d1c6ab64e9c811b586878a98a1827c9acc2201aae61d609a48a47c64861ebe7c55a49a5f55928b5978c9e5c874cb857e3846
+Description: Deepin Tool Kit Core library
+ DtkCore is base library of Deepin Qt/C++ applications.
+ .
+ This package contains the shared libraries.
+
+Package: libdde-waylandclient
+Architecture: arm64
+Version: 1.0.0-1+rb2
+Multi-Arch: same
+Priority: optional
+Section: devel
+Source: dde-wayland
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 74
+Depends: libc6 (>= 2.17), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.5.0), libqt5gui5 (>= 5.2.0) | libqt5gui5-gles (>= 5.2.0), libqt5waylandclient5 (>= 5.14.1), libstdc++6 (>= 4.1.1)
+Filename: ./arm64/5.6.2/libdde-waylandclient_1.0.0-1+rb2_arm64.deb
+Size: 17096
+MD5sum: ffc5d931699a3d6bb0a054061b2a2d40
+SHA1: a1cc71db2910e804d831e3702bfa67a424ff8438
+SHA256: 483ff7053ebb179e7dda4835e691ff6bfe9ea41feffdcd6a926b803914e2c481
+SHA512: 2b457760c0a0bec0603db1dcdcb02ec1827a030126f9dc3001bc4ffdfb74965e8f9913b880986da6682ac781e3771e5d1638282abab9e36cb34c64ec3a903a2a
+Description: DDE wayland client library
+ with DDE custom protocol.
+
+Package: libdtkwidget5
+Architecture: arm64
+Version: 5.6.2.2+1-1
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: dtkwidget
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 3649
+Depends: libc6 (>= 2.17), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libgcc-s1 (>= 3.0), libgsettings-qt1 (>= 0.1+14.04.20140408), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.14.1) | libqt5gui5-gles (>= 5.14.1), libqt5network5 (>= 5.0.2), libqt5printsupport5 (>= 5.11.0~rc1), libqt5widgets5 (>= 5.15.1), libqt5x11extras5 (>= 5.6.0), libstartup-notification0 (>= 0.10), libstdc++6 (>= 5.2), libx11-6 (>= 2:1.2.99.901), libxcb-util1 (>= 0.4.0), libxcb1, libxext6, libxi6 (>= 2:1.2.99.4), qtbase-abi-5-15-2, libdtkcommon
+Filename: ./arm64/5.6.2/libdtkwidget5_5.6.2.2+1-1_arm64.deb
+Size: 806544
+MD5sum: ca577fcf46439c14163a89182e596ef7
+SHA1: 419d0d66592b8fcf31f99f78f895c4497bfea8e5
+SHA256: b327a88b8d9cae35340d4ff58322baa07e71baa47518d749da636cab1e5cd248
+SHA512: 9b4a77981a6759d09d5f2cc66c217a967afb80dcbc2a60ba554bb2758df1ccc8aa98fa95ffaa2b6881fd67de1ddad6f5d3b3d6742225db3d8ba29c55173dc3b4
+Description: Deepin graphical user interface library
+ DtkWidget is Deepin graphical user interface for deepin desktop development.
+ .
+ This package contains the shared libraries.
+
+Package: libdtkcommon
+Architecture: arm64
+Version: 5.6.9
+Priority: optional
+Section: libdevel
+Source: dtkcommon
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 11
+Depends: dconf-gsettings-backend | gsettings-backend
+Conflicts: libdtkcore5 (<< 5.4.10)
+Replaces: libdtkcore5 (<< 5.4.10)
+Filename: ./arm64/5.6.2/libdtkcommon_5.6.9_arm64.deb
+Size: 2348
+MD5sum: 7b5ff004ab9a1a3cb05c9960bde3b0af
+SHA1: 6a2e1d825f095961c308a6a41c0f715978dff1b4
+SHA256: d7dd41a8da74844c2dbcaa03e239b141f29ce2622d4bcdc3f1901234dacd2c80
+SHA512: c0d3c5b46a38440b44bd10a59423aa35579a3213f0cabdffff259b10097b96e6cd06ac0b94b29ef5948d8ad9060cdf2624e4249cfb8bb8d7372a1678b33dbe18
+Homepage: http://www.deepin.org/
+Description: dtk common files
+ Used to store public configuration files
+
+Package: libdtkcore5-bin-dbgsym
+Architecture: arm64
+Version: 5.6.2.2-1
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: dtkcore
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 1675
+Depends: libdtkcore5-bin (= 5.6.2.2-1)
+Filename: ./arm64/5.6.2/libdtkcore5-bin-dbgsym_5.6.2.2-1_arm64.deb
+Size: 1630176
+MD5sum: 2327ab5d914b4d8a5b6944d1394586f2
+SHA1: 6393e5daef90397615806d19b73cdfc5dd399258
+SHA256: b7ae397bd66e38d7793b1a7de38d0b14f826329b5e5ac30ce372083bdfdabe40
+SHA512: 0077d9d9335987eed059bee6645905ad51b12dcb5b020a2c0ba2c1330ce4db8a5165588a82a87c5001ef30f10e9a9cb1374d06c4933b3b92e3834c462f85e346
+Description: debug symbols for libdtkcore5-bin
+Build-Ids: 82946eafc8c45914a00778edbba8954950ff9783 92da7ef4f020fa3168728259b8752a43b5827d5e c3b9785432854dc4bbe8b5ab5a6ad6ac8cd67b9a
+
+Package: libdtkwidget5-bin-dbgsym
+Architecture: arm64
+Version: 5.6.2.2+1-1
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: dtkwidget
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 259
+Depends: libdtkwidget5-bin (= 5.6.2.2+1-1)
+Filename: ./arm64/5.6.2/libdtkwidget5-bin-dbgsym_5.6.2.2+1-1_arm64.deb
+Size: 247352
+MD5sum: e69073a84fc78ebd1dc8bd68f3b6334d
+SHA1: 4671feebb379674f6b8976e58f701d44b18bc6ae
+SHA256: d94c478c1042c1a57b1d589c7c10b185593b5b728a6700b0e7ad7d5ad7b6022e
+SHA512: d34e97739afde6ec9d483d35aadae73e463444ac1b856a8e8423a1dd1c71573d10bcdd4290f09669ea2c27d8dd930e716f27c021ee866921e614847ad1cad4f3
+Description: debug symbols for libdtkwidget5-bin
+Build-Ids: c6fdeb8f36107565df99616cd2e379dc7e798d7d
+
+Package: libdtkcore5-dbgsym
+Architecture: arm64
+Version: 5.6.2.2-1
+Auto-Built-Package: debug-symbols
+Multi-Arch: same
+Priority: optional
+Section: debug
+Source: dtkcore
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 7688
+Depends: libdtkcore5 (= 5.6.2.2-1)
+Filename: ./arm64/5.6.2/libdtkcore5-dbgsym_5.6.2.2-1_arm64.deb
+Size: 7599068
+MD5sum: 7dad1ae097aaeb9b9fcdeb2faef24754
+SHA1: e920e0c10bb2ccacf81389731b9bfad8d04b4355
+SHA256: 6ce6cbcef2f08d56d0556ea01731f1eaa8f62005e78531bdc2b596aebcca86ca
+SHA512: 6f139b9ae1baef81aff44deeb5e25f326aa40c151364fe6cce0e929642788f4742fdef58e634406b8e17b94e3a2067d348d0960e40dce9d70f40b353a9305140
+Description: debug symbols for libdtkcore5
+Build-Ids: cc9d389ae25c840a6efb87667c4625b6f589313b
+
+Package: libdtkgui5
+Architecture: arm64
+Version: 5.6.2.2+2-1
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: dtkgui
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 846
+Depends: libc6 (>= 2.17), libdtkcore5 (>= 5.6), libgcc-s1 (>= 3.0), libglib2.0-0 (>= 2.12.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.11.0~rc1) | libqt5gui5-gles (>= 5.11.0~rc1), libqt5network5 (>= 5.0.2), libqt5xdgiconloader3 (>= 3.0.0), libstdc++6 (>= 4.8), qtbase-abi-5-15-2, libdtkcommon, qt5-image-formats-plugins
+Filename: ./arm64/5.6.2/libdtkgui5_5.6.2.2+2-1_arm64.deb
+Size: 201008
+MD5sum: b771a0db07f71dd2f40e942a4cbc9af4
+SHA1: f271842566617c57cc2d246f9df011987d5105ff
+SHA256: b588eca75cde159516a86f3c5772712a7383e5660c8a7301c727e2afe65c7115
+SHA512: 775167ecfa04d10bcfd257f03cb5c5635ee06bfe0bf3df57ce520daeabf4c470625ae76d0237b42c7693a7377e9b6ca3d734e33a60c1c7eb94642bfaabb4ff55
+Description: Deepin Tool Kit Gui library
+ DtkGui is base library of Deepin Qt/C++ applications.
+ .
+ This package contains the shared libraries.
+
+Package: libdtkcore-dev
+Architecture: arm64
+Version: 5.6.2.2-1
+Priority: optional
+Section: libdevel
+Source: dtkcore
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 275
+Depends: libdtkcore5 (= 5.6.2.2-1), libdtkcommon-dev
+Filename: ./arm64/5.6.2/libdtkcore-dev_5.6.2.2-1_arm64.deb
+Size: 39048
+MD5sum: e933a7f7c0e9d01f509a093026724599
+SHA1: 48dcf81455759bb828fed19656099d8e50f90857
+SHA256: 0f1a76dfe8d954e85761aa1f43e52543d549eaa61aaa87b6003395be49b78145
+SHA512: 281945ac7327a37cd9c37ce0bad5c8bdc5eab6c490af8361292a49b682e60cfb25582fedb6efdb63a9c478fca651fb1059dcc12c38e6405ff2db52b7ea323a30
+Description: Deepin Tool Kit Core Devel library
+ DtkCore is base devel library of Deepin Qt/C++ applications.
+ .
+ This package contains the header files and static libraries of DtkCore
+
+Package: libdtkwidget5-dbgsym
+Architecture: arm64
+Version: 5.6.2.2+1-1
+Auto-Built-Package: debug-symbols
+Multi-Arch: same
+Priority: optional
+Section: debug
+Source: dtkwidget
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 24498
+Depends: libdtkwidget5 (= 5.6.2.2+1-1)
+Filename: ./arm64/5.6.2/libdtkwidget5-dbgsym_5.6.2.2+1-1_arm64.deb
+Size: 24264528
+MD5sum: 17433d294bc522c87bf646662de77668
+SHA1: 5530285ff83fc44f7e13a0e742261d3b92d1f937
+SHA256: ffdad50f6cf3e0bdc03369b5d5b449db2a8172d62a149bf7f4f45695df274d9a
+SHA512: 3db2a86fc37f9ea614ffa08dd6a4bc5f03e612c811e0e1a131ea00c21604e76e96b5288c79b71461633ec9c535d58a73c5128d17d7b918278ef5634e9c6af853
+Description: debug symbols for libdtkwidget5
+Build-Ids: c5536d7e8a3191cb7bf5a9e1ef65725f078d44dd
+
+Package: libdtkcommon-dev
+Architecture: arm64
+Version: 5.6.4-1
+Priority: optional
+Section: libdevel
+Source: dtkcommon
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 51
+Depends: libdtkcommon (= 5.6.4-1)
+Conflicts: libdtkcore-dev (<< 5.4.10)
+Replaces: libdtkcore-dev (<< 5.4.10)
+Filename: ./arm64/5.6.2/libdtkcommon-dev_5.6.4-1_arm64.deb
+Size: 9288
+MD5sum: 1efa9011cf65e14598d0324ec03aacd6
+SHA1: ac65697f6da095ccdb93dbca956ddcf43996a003
+SHA256: 53df7bdc92bc58d3a664b367765e35dd1948cc0625b2e5a31c12b3d6bd86bd95
+SHA512: 1452718da00442c00461ce0412073364cfcbad9252c892f6e02836c457e84955d3e7f71434ecc7a7259d76cb6f6cd91adeba52fac23043b1d0726b2c5f0e2dc2
+Homepage: http://www.deepin.org/
+Description: dtk common files
+ Used to store public build files
+
+Package: libdtkwidget-dev
+Architecture: arm64
+Version: 5.6.2.2+1-1
+Priority: optional
+Section: libdevel
+Source: dtkwidget
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 490
+Depends: libdtkwidget5 (= 5.6.2.2+1-1), libqt5x11extras5-dev, libdtkcore-dev, libqt5svg5-dev, libdtkgui-dev, libcups2-dev
+Filename: ./arm64/5.6.2/libdtkwidget-dev_5.6.2.2+1-1_arm64.deb
+Size: 66232
+MD5sum: 8d23dcee2fa38ac80e76d26a60bd8606
+SHA1: 9752ce7db496df01f3a172e9902f3909bdddb34e
+SHA256: 97b3b7b6e5eb925461e82c6eaf06ef22f1ccd7782836c5cc9952fb341079d279
+SHA512: 03e9f265994821f328ccd39375ca03380ad369f91e7883d5092a865df185a7ba986d5bbc0dfc2947bbd732527924dd129eb7e0818223a909a8f33e58ac29e94c
+Description: Deepin graphical user interface library
+ DtkWidget is Deepin graphical user interface for deepin desktop development.
+ .
+ This package contains the header files and static libraries which are
+ needed for developing Deepin applications.
+
+Package: libdtkcore-doc
+Architecture: arm64
+Version: 5.6.2.2-1
+Priority: optional
+Section: libdevel
+Source: dtkcore
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 3622
+Filename: ./arm64/5.6.2/libdtkcore-doc_5.6.2.2-1_arm64.deb
+Size: 2466756
+MD5sum: 4352c5b2588ee715e44fe36bbd09235b
+SHA1: bf958f9fa45570abd6e61137a9d84bfcdbe88137
+SHA256: 4faa743b07f5a4d78c5df5d0e4392dff5044d5bd087c629354837acc77cfa672
+SHA512: f04526f2a36c90d32156d76f202882802ef623b025b476a33c4a7f7eadfaa88977ee0de2be562c8ee07768774655ed5af30fae42a279d90466f293028db1dee1
+Description: Deepin Tool Kit Core (document)
+ DtkCore is base devel library of Deepin Qt/C++ applications.
+ .
+ This package contains the doc files of DtkCore
+
+Package: libdde-waylandserver-dev
+Architecture: arm64
+Version: 1.0.0-1+rb2
+Priority: optional
+Section: devel
+Source: dde-wayland
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 18
+Depends: libdde-waylandserver (= 1.0.0-1+rb2)
+Filename: ./arm64/5.6.2/libdde-waylandserver-dev_1.0.0-1+rb2_arm64.deb
+Size: 3024
+MD5sum: 9f80e2c70c90fe6441c6f80e1bf24528
+SHA1: 085090fbe9939ead8279e71e5f6c2cb7b3163454
+SHA256: 65b255c4fb4cbcc58141bd4340eec259b7935ef6dea86995940d637224962ecd
+SHA512: d8692d775a0216638771338a4c99c8c96c3b689065db41753794e2b6324295cc87fea23a151224155e2187d99849d2641a3c27d5e29f7cbd4c4e9518b553fe01
+Description: DDE wayland server library
+ include header files.
+
+Package: dtkwidget-doc
+Architecture: arm64
+Version: 5.6.2.2+1-1
+Priority: optional
+Section: libdevel
+Source: dtkwidget
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 20
+Filename: ./arm64/5.6.2/dtkwidget-doc_5.6.2.2+1-1_arm64.deb
+Size: 14400
+MD5sum: 3cdc0590048aed005dd7b5dfdd792097
+SHA1: 2f1ea3be918ee8d3020810be0b8c72f5c18e0ad7
+SHA256: 607277f74282e4ab5dfafe35dd6833e7db98ce4bb330f7d0bca5b56f8db19ed8
+SHA512: 02903d02fdcdd9ac08c6fc357fb04698851ec2af0dfd904c156c171e520dfa3340761db6b00bdac464fd8e7790ff234f6744d13d1bfada09f835e89419b26570
+Description: Deepin graphical user interface library (Document)
+ DtkWidget is Deepin graphical user interface for deepin desktop development.
+ .
+ This package contains example application which are
+ needed for developing Deepin applications.
+
+Package: libdde-waylandserver
+Architecture: arm64
+Version: 1.0.0-1+rb2
+Multi-Arch: same
+Priority: optional
+Section: devel
+Source: dde-wayland
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 86
+Depends: libc6 (>= 2.17), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.5.0), libqt5waylandcompositor5 (>= 5.14.1), libstdc++6 (>= 4.1.1)
+Filename: ./arm64/5.6.2/libdde-waylandserver_1.0.0-1+rb2_arm64.deb
+Size: 18620
+MD5sum: 74549c110e560a87996c7b5bb738204f
+SHA1: 50ee02a558222ca44c3d42ad30d0dc780362d2ce
+SHA256: e8c48cb9c5a5339417196a7f52a4417faca365f97174675ecdabbc2efe841bad
+SHA512: c757cbbb7b73ac830cb011000ba0e8cc1cd59bf1557f15311d28475c38e49abf648c219e57c279c5e94ae8fc69a58bddd34f55478e46c695b18292e58f3e38e7
+Description: DDE wayland server library
+ with DDE custom protocol.
+
+Package: libdtkcommon-dev
+Architecture: arm64
+Version: 5.6.9
+Priority: optional
+Section: libdevel
+Source: dtkcommon
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 51
+Depends: libdtkcommon (= 5.6.9)
+Conflicts: libdtkcore-dev (<< 5.4.10)
+Replaces: libdtkcore-dev (<< 5.4.10)
+Filename: ./arm64/5.6.2/libdtkcommon-dev_5.6.9_arm64.deb
+Size: 9292
+MD5sum: 7905b9cabea1ad0dcc165e3bdbe5e1cc
+SHA1: 0762868f458d611fb1495ea7c44eeef2ca3abf77
+SHA256: dc9311f1aede3128fa8962ef591699924ddc6aefd62f2f49e004b3e14c406eb8
+SHA512: 0b4901d1b21570805d27c7e8f8cad0a136ef848e605bca4797e304d626448556d120a9150d19293e27fb73146243cd87a433cb2ae60608e1e3b6be248f8375d6
+Homepage: http://www.deepin.org/
+Description: dtk common files
+ Used to store public build files
+
+Package: libdde-waylandclient-dev
+Architecture: arm64
+Version: 1.0.0-1+rb2
+Priority: optional
+Section: devel
+Source: dde-wayland
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 17
+Depends: libdde-waylandclient (= 1.0.0-1+rb2)
+Filename: ./arm64/5.6.2/libdde-waylandclient-dev_1.0.0-1+rb2_arm64.deb
+Size: 2836
+MD5sum: a739ccc3ae6ab5546f0bac1b2014fa6d
+SHA1: 2fe6f6458d46dda55249888bb4d97337e7c5a441
+SHA256: 116ee070d7c84ceabcb40a1b194f0543a2ecc313909a4e9993449630c9e744e2
+SHA512: cd6bd58018bfc6a78cef66b808d311a19708acb8e404148493b1ae2f43edd4d5c56511ab6d07858ff1734a40144122d9dd08bf1c81325cccadb9f1c53ac52bb0
+Description: DDE wayland client library
+ include header files.
+
+Package: libdde-waylandclient-dbgsym
+Architecture: arm64
+Version: 1.0.0-1+rb2
+Auto-Built-Package: debug-symbols
+Multi-Arch: same
+Priority: optional
+Section: debug
+Source: dde-wayland
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 387
+Depends: libdde-waylandclient (= 1.0.0-1+rb2)
+Filename: ./arm64/5.6.2/libdde-waylandclient-dbgsym_1.0.0-1+rb2_arm64.deb
+Size: 365276
+MD5sum: 2bed03ce639bf43ab1cae7251a2c6714
+SHA1: 0c5d4595ef4b967ce5033aa25711ef52a6c504cf
+SHA256: 48447f74078ec8e9852cb551f1707ddafd254375302b2917a43d6c57380b8215
+SHA512: 5dffe4d323e38a4f3673ec2bd9209b5943bc4d8e92a1b99b1dd261539e849318787d6bff4f4a88352e1418222c8cf16c409aca4463229ca866d43ec87db5cabf
+Description: debug symbols for libdde-waylandclient
+Build-Ids: 41b0560dbdecc0e2cd843e083c4ab2a94e41062a
+
+Package: libdtkcore5-bin
+Architecture: arm64
+Version: 5.6.2.2-1
+Priority: optional
+Section: libdevel
+Source: dtkcore
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 320
+Depends: libc6 (>= 2.17), libdtkcore5 (= 5.6.2.2-1), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.0.2), libqt5xml5 (>= 5.0.2), libstdc++6 (>= 4.1.1), qtbase-abi-5-15-2
+Filename: ./arm64/5.6.2/libdtkcore5-bin_5.6.2.2-1_arm64.deb
+Size: 93616
+MD5sum: a255a27284505045f3c06497d8376314
+SHA1: 2718dcce9db7eb520debe37adac6739e5ebbb963
+SHA256: ea679551d4c59d26a52ee5fda078a5d81885e4363484867bc4a0fe2476f9c134
+SHA512: d09eec4bf49bd88fa040659f27cdfeeb9bb0ee9188faa6de525e627618bb3c7fcad6c6024cc6ed297eeda2dd888da45e3c2b27af7f6b947f5ce01a1b5d63d7fe
+Description: Deepin Tool Kit Core Utilities
+ DtkCore is base devel library of Deepin Qt/C++ applications.
+ .
+ This package contains the utilities of DtkCore
+
+Package: libdtkgui-dev
+Architecture: arm64
+Version: 5.6.2.2+2-1
+Priority: optional
+Section: libdevel
+Source: dtkgui
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 108
+Depends: libdtkgui5 (= 5.6.2.2+2-1)
+Filename: ./arm64/5.6.2/libdtkgui-dev_5.6.2.2+2-1_arm64.deb
+Size: 15736
+MD5sum: 4d90ac9c167fa20f566c1a4240edcba7
+SHA1: 96373e9ec267ce197530532e99fffa5342d39f96
+SHA256: 894816035f578b9bc65eba45769868f7be442ecaaf6fa9d184709ae442802b0c
+SHA512: 6996cd7d5047b126e6d4d81349286645a7d2325b87c7c0cf6a081271782125a6e58863ad468324589ce224bf5f463e6c52586d16533b1fbee71bc4f210af68f4
+Description: Deepin Tool Kit Gui Devel library
+ DtkGui is base devel library of Deepin Qt/C++ applications.
+ .
+ This package contains the header files and static libraries of DtkGui
+
+Package: libdtkgui5-bin
+Architecture: arm64
+Version: 5.6.2.2+2-1
+Priority: optional
+Section: libdevel
+Source: dtkgui
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 126
+Depends: libc6 (>= 2.17), libdtkcore5 (>= 5.6), libdtkgui5 (= 5.6.2.2+2-1), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.5.0), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 6), libx11-6
+Filename: ./arm64/5.6.2/libdtkgui5-bin_5.6.2.2+2-1_arm64.deb
+Size: 27580
+MD5sum: 3b28691c2a9ac46232ab5f05947fd0d8
+SHA1: e31b9be1ec0a048239f549dbc2a86ff43a2fe3ea
+SHA256: 9be75abd656277aa5a4271eba706f993ee5c351c522019908b1b43ce3d500705
+SHA512: 29306243fe2ee466940ff8e9870a4a16892882dd8f89ab4aecf7c542bf7cc5aa3da9502ccc810bb21f5dc4d940d27399460374698bfdc6f34d127ae45de4fa9c
+Description: Deepin Tool Kit Gui Utilities
+ DtkGui is base devel library of Deepin Qt/C++ applications.
+ .
+ This package contains the utilities of DtkGui
+
+Package: dtkwidget5-examples
+Architecture: arm64
+Version: 5.6.2.2+1-1
+Priority: optional
+Section: libdevel
+Source: dtkwidget
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 18417
+Depends: libc6 (>= 2.17), libdtkcore5 (>= 5.6), libdtkgui5 (>= 5.6), libdtkwidget5 (= 5.6.2.2+1-1), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.14.1), libqt5gui5 (>= 5.7.0) | libqt5gui5-gles (>= 5.7.0), libqt5printsupport5 (>= 5.0.2), libqt5widgets5 (>= 5.6.0~rc), libstdc++6 (>= 4.1.1)
+Filename: ./arm64/5.6.2/dtkwidget5-examples_5.6.2.2+1-1_arm64.deb
+Size: 14993264
+MD5sum: 716c7768cd0ec8f4a084d84ad4858336
+SHA1: 3dc6101e1795eec490f05192b130cee3b8cd5a29
+SHA256: 5b4c62f64453566e91484bacdba34e20479cea7e764ad842cbc05352f89c76a3
+SHA512: 15f3cd6586680223d2469a7d1132e584069e027c632de27b0ae84ee708cf90717dc258c64ea2f74706c848d330667af6f413fbefbc2cdd3e98a9dba8da5ae693
+Description: dtkwidget-examples is generated by dtkwidget.
+ DtkWidget is Deepin graphical user interface for deepin desktop development.
+ .
+ This package contains example application which are
+ needed for developing Deepin applications.
+
+Package: libdtkgui-doc
+Architecture: arm64
+Version: 5.6.2.2+2-1
+Priority: optional
+Section: libdevel
+Source: dtkgui
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 1798
+Filename: ./arm64/5.6.2/libdtkgui-doc_5.6.2.2+2-1_arm64.deb
+Size: 1127656
+MD5sum: 0a25b96a84eca8ef0ada5f352cbc40fd
+SHA1: 259522f4c746327365028baaac757c39970834dc
+SHA256: b411b6fe891c3ce6a8b13d0615542e71b21a7f6e00160474c6d6a3240534d8dc
+SHA512: 96c4253fda5ad8863ed75c0a72857d5308491d7d623c57f95729318d1d45d7e1737e3b0ea20ec3da9df1996df9559495ff2262cf55722ce418aa3304c2551805
+Description: Deepin Tool Kit Gui (Document)
+ DtkGui is base devel library of Deepin Qt/C++ applications.
+ .
+ This package contains the qt Document of DtkGui
+
+Package: libdtkgui5-bin-dbgsym
+Architecture: arm64
+Version: 5.6.2.2+2-1
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: dtkgui
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 779
+Depends: libdtkgui5-bin (= 5.6.2.2+2-1)
+Filename: ./arm64/5.6.2/libdtkgui5-bin-dbgsym_5.6.2.2+2-1_arm64.deb
+Size: 735116
+MD5sum: 7307eae39957e438aec77415287f6033
+SHA1: b5ab172e133754e5636a173e3b6d449832a3a68f
+SHA256: cb9e75dedcad105e9d41b03d5df58bf13ec5d4c88e9c993ef4a7142061be97cd
+SHA512: a38edbc2b3a6a3ac469f1563c28a90a97a7972d2fda2cbee052a95e260042750c5c0fb77609aaa3826d6811f7d565a2ec40c69687d9f4c07144277a700da40d5
+Description: debug symbols for libdtkgui5-bin
+Build-Ids: 1640bcc6b64d5b41b3ea0b4c2e3b9dcac2938db0 548153f646c071c9b8a6371b5428e2edb0c99a4b b40bfd285699d985be6a8f64be4b61e4fdb4f961 d78cdb80d9652dd07ecd7cd7cf726ab851ef3d72
+
+Package: libdtkgui5-dbgsym
+Architecture: arm64
+Version: 5.6.2.2+2-1
+Auto-Built-Package: debug-symbols
+Multi-Arch: same
+Priority: optional
+Section: debug
+Source: dtkgui
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 5065
+Depends: libdtkgui5 (= 5.6.2.2+2-1)
+Filename: ./arm64/5.6.2/libdtkgui5-dbgsym_5.6.2.2+2-1_arm64.deb
+Size: 4967352
+MD5sum: f602fcc189514421d77d02f7c821ecc4
+SHA1: bb7eff011babc2bab84d2881d532928e97b9e954
+SHA256: 0754b5715cc18e18f3bde0a2e4ce6d122ecee16ab94dedab895e07ab798153f1
+SHA512: 097939be1a43bfb7d705bd1c25e3109ba0f9ff5c10ccd085973c23964fa6eda57af6c7c5c47d5478aa254ef9af0c7ba5ee03f96bf9115ed1a9c6ff951ccc8970
+Description: debug symbols for libdtkgui5
+Build-Ids: 02731258bd7e6dc19b9febffc4e620f03dec5d10
+
+Package: libdtkcommon
+Architecture: arm64
+Version: 5.6.4-1
+Priority: optional
+Section: libdevel
+Source: dtkcommon
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 11
+Depends: dconf-gsettings-backend | gsettings-backend
+Conflicts: libdtkcore5 (<< 5.4.10)
+Replaces: libdtkcore5 (<< 5.4.10)
+Filename: ./arm64/5.6.2/libdtkcommon_5.6.4-1_arm64.deb
+Size: 2344
+MD5sum: bf1bd3761213091d64b66086db247583
+SHA1: fbc99ebcd7af26a1b6a710864b2209e37291a46a
+SHA256: 45f9aebeb7c3b6bd5d1d30958813d64836dfdab8376505b971de3878e9f52d26
+SHA512: dd92e7dcaa683e3c0a554865b582073f66c1a2f16759a624f34ed1fa1c5d594f196bb233d6748c56c5dcd631da77f36b3785c961241e176e6bd3325b944be4ee
+Homepage: http://www.deepin.org/
+Description: dtk common files
+ Used to store public configuration files
+
+Package: dtkwidget5-examples-dbgsym
+Architecture: arm64
+Version: 5.6.2.2+1-1
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: dtkwidget
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 3662
+Depends: dtkwidget5-examples (= 5.6.2.2+1-1)
+Filename: ./arm64/5.6.2/dtkwidget5-examples-dbgsym_5.6.2.2+1-1_arm64.deb
+Size: 3583688
+MD5sum: 7cb572e730a550cc272e87cddd76e150
+SHA1: 35273ecc5ef269715827dcaed42152d00876265d
+SHA256: c722d3fc56fbf9e6478030cbf9efa0c07eabbdd09b6c5d0121eca3937afe7be6
+SHA512: 83b5ef8d262dbc62f9c6d9bc64013c9ff6c37d05be2d098978d592b5ca506aff186fd33536c414c29da4f014e716b9bcc59280c5c749d1fc97ae02dd6e7f1018
+Description: debug symbols for dtkwidget5-examples
+Build-Ids: ad7233140b8415e5eca863c0d05873e944da88a0
+
+Package: libdde-waylandserver-dbgsym
+Architecture: arm64
+Version: 1.0.0-1+rb2
+Auto-Built-Package: debug-symbols
+Multi-Arch: same
+Priority: optional
+Section: debug
+Source: dde-wayland
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 422
+Depends: libdde-waylandserver (= 1.0.0-1+rb2)
+Filename: ./arm64/5.6.2/libdde-waylandserver-dbgsym_1.0.0-1+rb2_arm64.deb
+Size: 394772
+MD5sum: 0665d11c5ac6dd561d6b5b94ba0f3b56
+SHA1: 25713291d5f28542ee07c46e145547f93a9f542d
+SHA256: 68ea9a0acde5dbcd27471dac2d3321057480bfceddf321dfad0e62e6a3c2c247
+SHA512: 79fd8bbc64ad5fc3d3a71832a01befe0c64b8a2bc399f55683c50613f7518340787bd4762930a6fd3439b9acf3a98911acea8db517c53dc5640b05cf32f5b5e1
+Description: debug symbols for libdde-waylandserver
+Build-Ids: 9754c5416452a20243fb5638f85e710ce1db6ef2
+
+Package: libdtkwidget5-bin
+Architecture: arm64
+Version: 5.6.2.2+1-1
+Priority: optional
+Section: libdevel
+Source: dtkwidget
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 44
+Depends: libc6 (>= 2.17), libdtkgui5 (>= 5.6), libgcc-s1 (>= 3.0), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5svg5 (>= 5.6.0~beta), libstdc++6 (>= 4.1.1), libdtkwidget5 (= 5.6.2.2+1-1), libqt5x11extras5-dev, libdtkcore-dev, libqt5svg5-dev
+Filename: ./arm64/5.6.2/libdtkwidget5-bin_5.6.2.2+1-1_arm64.deb
+Size: 20844
+MD5sum: a4a5c023a717f99aa120e75ee2b1f677
+SHA1: e83167e8f4f7c65fa8686b48bc64e06d6ba81e52
+SHA256: d4105d40529cc07b9e725bcec1b4578a4ae140ab4648c7c1785fe37d27cbae31
+SHA512: 87ef149acaccffb4514c60308032e9e2ab36af917223b74947a9e93558f7271f8f10147131aaabc3c58bbe87bbc334892ae2bcaac51f32e04ad1c73684cb050a
+Description: Deepin graphical user interface library utilities
+ DtkWidget is Deepin graphical user interface for deepin desktop development.
+ .
+ This package contains the utilities which are
+ needed for developing Deepin applications.
+

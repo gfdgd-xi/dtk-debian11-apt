@@ -1,0 +1,20 @@
+Package: libdde-waylandserver-dbgsym
+Architecture: arm64
+Version: 1.0.0-1+rb2
+Auto-Built-Package: debug-symbols
+Multi-Arch: same
+Priority: optional
+Section: debug
+Source: dde-wayland
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 422
+Depends: libdde-waylandserver (= 1.0.0-1+rb2)
+Filename: ./arm64/5.6.2/libdde-waylandserver-dbgsym_1.0.0-1+rb2_arm64.deb
+Size: 394772
+MD5sum: 0665d11c5ac6dd561d6b5b94ba0f3b56
+SHA1: 25713291d5f28542ee07c46e145547f93a9f542d
+SHA256: 68ea9a0acde5dbcd27471dac2d3321057480bfceddf321dfad0e62e6a3c2c247
+SHA512: 79fd8bbc64ad5fc3d3a71832a01befe0c64b8a2bc399f55683c50613f7518340787bd4762930a6fd3439b9acf3a98911acea8db517c53dc5640b05cf32f5b5e1
+Description: debug symbols for libdde-waylandserver
+Build-Ids: 9754c5416452a20243fb5638f85e710ce1db6ef2
+

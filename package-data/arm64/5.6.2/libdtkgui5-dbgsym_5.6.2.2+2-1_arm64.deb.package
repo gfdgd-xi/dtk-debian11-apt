@@ -1,0 +1,20 @@
+Package: libdtkgui5-dbgsym
+Architecture: arm64
+Version: 5.6.2.2+2-1
+Auto-Built-Package: debug-symbols
+Multi-Arch: same
+Priority: optional
+Section: debug
+Source: dtkgui
+Maintainer: Deepin Packages Builder <packages@deepin.com>
+Installed-Size: 5065
+Depends: libdtkgui5 (= 5.6.2.2+2-1)
+Filename: ./arm64/5.6.2/libdtkgui5-dbgsym_5.6.2.2+2-1_arm64.deb
+Size: 4967352
+MD5sum: f602fcc189514421d77d02f7c821ecc4
+SHA1: bb7eff011babc2bab84d2881d532928e97b9e954
+SHA256: 0754b5715cc18e18f3bde0a2e4ce6d122ecee16ab94dedab895e07ab798153f1
+SHA512: 097939be1a43bfb7d705bd1c25e3109ba0f9ff5c10ccd085973c23964fa6eda57af6c7c5c47d5478aa254ef9af0c7ba5ee03f96bf9115ed1a9c6ff951ccc8970
+Description: debug symbols for libdtkgui5
+Build-Ids: 02731258bd7e6dc19b9febffc4e620f03dec5d10
+
